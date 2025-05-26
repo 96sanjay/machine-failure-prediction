@@ -1,0 +1,31 @@
+# Configuration file for Machine Failure Prediction
+
+data:
+  file_path: "data/raw/Machine Failure Data.csv"
+  test_size: 0.2
+  random_state: 42
+  
+preprocessing:
+  scaling_method: "standard"
+  handle_missing: "drop"
+  
+models:
+  algorithms:
+    - "SVC"
+    - "DecisionTreeClassifier"  
+    - "RandomForestClassifier"
+    - "AdaBoostClassifier"
+    - "GradientBoostingClassifier"
+    - "XGBClassifier"
+  
+hyperparameters:
+  cv_folds: 5
+  scoring: "roc_auc"
+  n_jobs: -1
+  
+output:
+  save_models: true
+  save_plots: true
+  verbose: true
+  results_dir: "results/"
+  models_dir: "models/trained_models/"

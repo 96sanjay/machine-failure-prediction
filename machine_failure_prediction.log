@@ -1,0 +1,8 @@
+2025-05-26 03:01:16,776 - INFO - Starting Machine Failure Prediction System
+2025-05-26 03:01:16,794 - ERROR - Error in main execution: 'seaborn-v0_8' not found in the style library and input is not a valid URL or path; see `style.available` for list of available styles
+2025-05-26 03:05:48,190 - INFO - Starting Machine Failure Prediction System
+2025-05-26 03:05:48,208 - ERROR - Error in main execution: 'seaborn-v0_8' not found in the style library and input is not a valid URL or path; see `style.available` for list of available styles
+2025-05-26 03:06:47,197 - INFO - Starting Machine Failure Prediction System
+2025-05-26 03:06:47,216 - ERROR - Error in main execution: 'seaborn-v0_8-darkgrid' not found in the style library and input is not a valid URL or path; see `style.available` for list of available styles
+2025-05-26 03:08:12,077 - INFO - Starting Machine Failure Prediction System
+2025-05-26 03:16:45,276 - INFO - Machine Failure Prediction System completed successfully

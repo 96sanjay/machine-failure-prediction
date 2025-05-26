@@ -1,0 +1,56 @@
+Model Evaluation Summary
+==================================================
+
+Best Model: RandomForestClassifier
+
+Model Comparison:
+                     Model  Accuracy  ROC_AUC  F1_Score  Precision   Recall
+    RandomForestClassifier  0.904762 0.976640  0.888889   0.867470 0.911392
+                       SVC  0.920635 0.975374  0.904459   0.910256 0.898734
+GradientBoostingClassifier  0.925926 0.972152  0.911392   0.911392 0.911392
+             XGBClassifier  0.910053 0.971922  0.894410   0.878049 0.911392
+        AdaBoostClassifier  0.920635 0.970196  0.907975   0.880952 0.936709
+    DecisionTreeClassifier  0.883598 0.961738  0.865854   0.835294 0.898734
+
+SVC Detailed Metrics:
+  accuracy: 0.9206
+  f1_score: 0.9045
+  precision: 0.9103
+  recall: 0.8987
+  roc_auc: 0.9754
+
+DecisionTreeClassifier Detailed Metrics:
+  accuracy: 0.8836
+  f1_score: 0.8659
+  precision: 0.8353
+  recall: 0.8987
+  roc_auc: 0.9617
+
+RandomForestClassifier Detailed Metrics:
+  accuracy: 0.9048
+  f1_score: 0.8889
+  precision: 0.8675
+  recall: 0.9114
+  roc_auc: 0.9766
+
+AdaBoostClassifier Detailed Metrics:
+  accuracy: 0.9206
+  f1_score: 0.9080
+  precision: 0.8810
+  recall: 0.9367
+  roc_auc: 0.9702
+
+GradientBoostingClassifier Detailed Metrics:
+  accuracy: 0.9259
+  f1_score: 0.9114
+  precision: 0.9114
+  recall: 0.9114
+  roc_auc: 0.9722
+
+XGBClassifier Detailed Metrics:
+  accuracy: 0.9101
+  f1_score: 0.8944
+  precision: 0.8780
+  recall: 0.9114
+  roc_auc: 0.9719
+
