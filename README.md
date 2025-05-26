@@ -11,31 +11,27 @@ This project implements a machine learning system designed to predict potential 
 The repository is organized following best practices for MLOps (Machine Learning Operations) and modular software development. This structure promotes scalability, maintainability, and reproducibility, making it easy for both individual developers and teams to work on the project.
 
 .
-├── config.yml                 # Global configurations, hyperparameters, and file paths for data, models, and results.
+├── config.yml
 ├── data
-│   ├── processed              # Stores cleaned, transformed, and feature-engineered data ready for model training.
-│   └── raw                    # Contains the original, immutable raw datasets.
-├── main.py                    # The primary entry point for running the entire machine learning pipeline.
+│   ├── processed
+│   └── raw
+├── main.py
 ├── models
-│   └── trained_models         # Dedicated directory for saving trained machine learning model artifacts (.pkl, .h5, etc.).
-├── notebooks                  # Jupyter notebooks used for initial data exploration (EDA), model prototyping, and experimentation.
-├── requirements.txt           # Lists all Python package dependencies required to run the project.
+│   └── trained_models
+├── notebooks
+├── requirements.txt
 ├── results
-│   ├── plots                  # Stores generated visualizations, such as performance charts, confusion matrices, and ROC curves.
-│   └── reports                # Contains detailed evaluation reports, summaries of findings, and comparative analyses.
-├── setup.py                   # Setup script to make the project installable as a Python package, facilitating dependency management and deployment.
-├── src                        # The core source code of the machine learning pipeline, divided into logical modules.
-│   ├── config.py              # Handles the programmatic loading and management of configurations from config.yml.
-│   ├── data_preprocessing.py  # Contains functions for data cleaning, transformation, feature engineering, and consistent preprocessing for both training and inference.
-│   ├── model_evaluation.py    # Provides utilities for evaluating model performance, calculating metrics, generating reports, and making predictions on new data.
-│   ├── model_training.py      # Encapsulates the logic for model selection, training, hyperparameter tuning, and saving trained models.
-│   ├── utils.py               # A collection of general helper functions and reusable code snippets (e.g., logging setup).
-│   └── visualization.py       # Functions specifically designed for generating various plots and visualizations with consistent styling.
-└── tests                      # Contains unit and integration tests to ensure the correctness and reliability of the codebase.
-
-
----
-
+│   ├── plots
+│   └── reports
+├── setup.py
+├── src
+│   ├── config.py
+│   ├── data_preprocessing.py
+│   ├── model_evaluation.py
+│   ├── model_training.py
+│   ├── utils.py
+│   └── visualization.py
+└── tests
 ## Features
 -   **End-to-End Pipeline:** Automates the entire machine learning workflow from data ingestion to prediction.
 -   **Data Management:** Structured handling of raw and processed data for clear separation and reproducibility.
